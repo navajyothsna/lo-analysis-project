@@ -1,4 +1,4 @@
-# log-analysis-project
+# lo-analysis-project
 
 Udacity Full Stack NanoDegree Log Analysis Project
 
