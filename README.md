@@ -11,10 +11,8 @@ Udacity Full Stack NanoDegree Log Analysis Project
   ```
     psql -d news -f newsdata.sql
   ```
-  2. Use this code to connect to database.
-  '''
-  `psql -d news`
-  ```
+  2. Use this code `psql -d news` to connect to database.
+  
   3. Create views using:
   ```
 create view numviews_view as (select title, author, count(*) as num from articles,log where log.path=CONCAT('/article/',articles.slug) group by articles.title,articles.author order by num desc);
